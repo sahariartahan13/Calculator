@@ -14,6 +14,7 @@ namespace Calculator
     public partial class Form1 : Form
     {
         private double input1;
+        String op;
         public Form1()
         {
             InitializeComponent();
@@ -28,15 +29,43 @@ namespace Calculator
         {
             double result = 0;
             double input2 = Convert.ToDouble(resultsrn.Text);
-            double add = input1 + input2;
-            result = add;
+            if (op == "+")
+            {
+                double add = input1 + input2;
+                result = add;
+            }
+            else if (op == "-")
+                {
+                    double min = input1 - input2;
+                    result = min;
+                }
+            else if (op == "X")
+            {
+                double mul = input1 * input2;
+                result = mul;
+            }
+            else if (op == "/")
+            {
+                if (input2 == 0) 
+                {
+                MessageBox.Show("Cannot Divide By Zero!");
+                return;
+                }
+                double div = input1 / input2;
+                result = div;
+            }
+
             resultsrn.Text = Convert.ToString(result);
-            label1.Text = Convert.ToString(input1) + "+" + Convert.ToString(input2);
+            label1.Text = Convert.ToString(input1) + " " + op + " " + Convert.ToString(input2);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(resultsrn.Text))
+            {
+                resultsrn.Text = "0";
+            }
+            else if (resultsrn.Text == "0") 
             {
                 return;
             }
@@ -106,13 +135,38 @@ namespace Calculator
         private void button15_Click(object sender, EventArgs e)
         {
             input1 = Convert.ToDouble(resultsrn.Text);
-            label1.Text = input1 + "+";
+            label1.Text = input1 + " + ";
             resultsrn.Text = "";
+            op = "+";
         }
 
         private void resultsrn_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            input1 = Convert.ToDouble(resultsrn.Text);
+            label1.Text = input1 + " / ";
+            resultsrn.Text = "";
+            op = "/";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            input1 = Convert.ToDouble(resultsrn.Text);
+            label1.Text = input1 + " X ";
+            resultsrn.Text = "";
+            op = "X";
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            input1 = Convert.ToDouble(resultsrn.Text);
+            label1.Text = input1 + " - ";
+            resultsrn.Text = "";
+            op = "-";
         }
     }
 }
