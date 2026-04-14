@@ -61,7 +61,7 @@ namespace Calculator
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(resultsrn.Text))
+            if (String.IsNullOrWhiteSpace(resultsrn.Text))
             {
                 resultsrn.Text = "0";
             }
@@ -73,12 +73,11 @@ namespace Calculator
             {
                 resultsrn.Text = resultsrn.Text + "0";
             }
-
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(resultsrn.Text))
+            if (String.IsNullOrWhiteSpace(resultsrn.Text))
             {
                 resultsrn.Text = resultsrn.Text + "0.";
             }
@@ -135,7 +134,7 @@ namespace Calculator
 
         private void button15_Click(object sender, EventArgs e)
         {
-            input1 = Convert.ToDouble(resultsrn.Text);
+            input1 = string.IsNullOrWhiteSpace(resultsrn.Text) ? 0 : Convert.ToDouble(resultsrn.Text);
             label1.Text = input1 + " + ";
             resultsrn.Text = "";
             op = "+";
@@ -148,7 +147,7 @@ namespace Calculator
 
         private void button3_Click(object sender, EventArgs e)
         {
-            input1 = Convert.ToDouble(resultsrn.Text);
+            input1 = string.IsNullOrWhiteSpace(resultsrn.Text) ? 0 : Convert.ToDouble(resultsrn.Text);
             label1.Text = input1 + " / ";
             resultsrn.Text = "";
             op = "/";
@@ -156,7 +155,7 @@ namespace Calculator
 
         private void button7_Click(object sender, EventArgs e)
         {
-            input1 = Convert.ToDouble(resultsrn.Text);
+            input1 = string.IsNullOrWhiteSpace(resultsrn.Text) ? 0 : Convert.ToDouble(resultsrn.Text);
             label1.Text = input1 + " X ";
             resultsrn.Text = "";
             op = "X";
@@ -164,7 +163,7 @@ namespace Calculator
 
         private void button11_Click(object sender, EventArgs e)
         {
-            input1 = Convert.ToDouble(resultsrn.Text);
+            input1 = string.IsNullOrWhiteSpace(resultsrn.Text) ? 0 : Convert.ToDouble(resultsrn.Text);
             label1.Text = input1 + " - ";
             resultsrn.Text = "";
             op = "-";
