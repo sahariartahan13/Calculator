@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
+
     public partial class Form1 : Form
     {
+        private double input1;
         public Form1()
         {
             InitializeComponent();
@@ -19,11 +21,17 @@ namespace Calculator
         private void buttonAC_Click(object sender, EventArgs e)
         {
             resultsrn.Text = "";
+            label1.Text = "";
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-
+            double result = 0;
+            double input2 = Convert.ToDouble(resultsrn.Text);
+            double add = input1 + input2;
+            result = add;
+            resultsrn.Text = Convert.ToString(result);
+            label1.Text = Convert.ToString(input1) + "+" + Convert.ToString(input2);
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -32,10 +40,6 @@ namespace Calculator
             {
                 return;
             }
-            //else if ()
-            //{
-               
-            //}
             else
             {
                 resultsrn.Text = resultsrn.Text + "0";
@@ -97,6 +101,18 @@ namespace Calculator
         private void btn9_Click(object sender, EventArgs e)
         {
             resultsrn.Text = resultsrn.Text + "9";
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            input1 = Convert.ToDouble(resultsrn.Text);
+            label1.Text = input1 + "+";
+            resultsrn.Text = "";
+        }
+
+        private void resultsrn_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
