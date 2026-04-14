@@ -54,6 +54,7 @@
             this.resultsrn.Font = new System.Drawing.Font("Microsoft Tai Le", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultsrn.Location = new System.Drawing.Point(11, 39);
             this.resultsrn.Name = "resultsrn";
+            this.resultsrn.ReadOnly = true;
             this.resultsrn.Size = new System.Drawing.Size(287, 60);
             this.resultsrn.TabIndex = 0;
             this.resultsrn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
