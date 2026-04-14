@@ -73,6 +73,7 @@ namespace Calculator
             {
                 resultsrn.Text = resultsrn.Text + "0";
             }
+
         }
 
         private void button14_Click(object sender, EventArgs e)
