@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{545F15A4-6EC8-4501-9E73-3FAD9A1F6F91}|Calculator\\Calculator.csproj|c:\\users\\sat\\onedrive - american international university-bangladesh\\desktop\\c# projects practice\\calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{545F15A4-6EC8-4501-9E73-3FAD9A1F6F91}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{545F15A4-6EC8-4501-9E73-3FAD9A1F6F91}|Calculator\\Calculator.csproj|C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{545F15A4-6EC8-4501-9E73-3FAD9A1F6F91}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\Calculator\\Form1.cs [Design]",
+              "RelativeToolTip": "Calculator\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T05:50:20.814Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
+              "ToolTip": "C:\\Users\\SAT\\OneDrive - American International University-Bangladesh\\Desktop\\C# Projects Practice\\Calculator\\Calculator\\Form1.cs*",
+              "RelativeToolTip": "Calculator\\Form1.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T02:27:24.943Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\SAT\OneDrive - American International University-Bangladesh\Desktop\C# Projects Practice\Calculator\Calculator\obj\Debug\Calculator.pdb
